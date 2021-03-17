@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+/*default font is 16 pixels declared as 100% */
+  font-size: 100%;
+/* removes bold default */
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 24px;
+}
+/*change header background color*/
+header{
+  background-color: lightgray;
+}
+/*changes nav anchors.*/
+nav a {
+text-decoration: none;
+color: green;
+font-size: 24px;
+font-weight: bold;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 15px;
+padding-right: 15px;
+display: block;
+}
+nav a:hover{
+  color: white;
+  background-color:green;
+}
+nav ul{
+  display: flex;
+  list-style:none;
+}
+#banner{
+  height: 300px;
+  /*../ declares leave directory*/
+  background-image: url(../images/bkg.jpg);
+/*makes image cover area / adujust to area*/
+  background-size: cover;
+}
+main {
+  width: 960px;
+/* margin: 0 auto; also does these next two commands*/
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+main p {
+width: 600px;
+margin-left: 20px;
+}
+h2 {
+  font-size: 32px;
+  color: green;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: center;
+  width: 100%;
+}
+section {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.column {
+  display: flex;;
+}

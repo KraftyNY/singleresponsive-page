@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+/*default font is 16 pixels declared as 100% */
+  font-size: 100%;
+/* removes bold default */
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 24px;
+  margin:0; padding:0;
+}
+h1 {
+  background-color: maroon;
+  text-align: center;
+  text-shadow: 4px 2px #000000;
+  color: white;
+  font-family: sans-serif;
+  font-size:40px;
+    width: 100%;
+    padding-left: 1.1869%;
+    padding-right: 1.1869%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header{
+  background-color: black;
+  background-image: url(../images/bkg.jpg);
+/*makes image cover area / adujust to area*/
+  background-size: contain;
+}
+/*changes nav anchors.*/
+nav a {
+text-decoration: none;
+color: white;
+font-size: 13px;
+padding: 14px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 15px;
+padding-right: 15px;
+}
+nav a:hover{
+  color: red;
+  background-color:green;
+  font-size: 13px;
+  font-weight: bolder;
+  border: #000 1px solid;
+}
+li{
+  display: inline-block;
+}
+#wireframe{
+  height: 600px;
+  background-image: url(../images/wireframe.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  border-bottom: 10px;
+  border-style:outset;
+}
+button{
+text-align: inherit;
+border: 1px solid black;
+background-color: #cc7a00;
+text-decoration: none;
+color: white;fo
+font-size: 20px;
+}
+h4{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 24px;
+	color: #262626;
+	margin-top: 5px;
+}
+.wrapper1{
+  display: flex;
+  	margin:0 auto;
+background-color:lightgray;
+}
+
+.wrapper2{
+  display: flex;
+	margin:0 auto;
+  background-color:lightblue;
+ }
+.wrapper3{
+  display: flex;
+	margin:0 auto;
+  background-color:lightgray;
+}
+.wrapper4{
+  display: flex;
+	margin:0 auto;
+  background-color:lightblue;
+ }
+ footer{
+background-color: orange;
+  font-weight: bolder;
+ }
